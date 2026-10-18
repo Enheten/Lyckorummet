@@ -96,22 +96,41 @@ p {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 18px;
   flex-wrap: wrap;
   margin-top: 35px;
 }
 
-.social-links a {
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   color: #303956;
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-size: 0.95rem;
-  border-bottom: 1px solid #a5a9bb;
-  padding-bottom: 4px;
+  padding: 10px 14px;
+  border: 1px solid #d7dbe5;
+  border-radius: 999px;
+  background: #ffffff;
+  transition: all 0.2s ease;
 }
 
-.social-links a:hover {
-  color: #73809d;
+.social-link:hover {
+  color: #526080;
+  border-color: #aeb7c8;
+  background: #f8f9fc;
+}
+
+.icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* Sidfot */
